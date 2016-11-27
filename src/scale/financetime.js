@@ -342,9 +342,9 @@ module.exports = function(d3_scale_linear, d3_time, d3_bisect, techan_util_rebin
       [d3_time.timeMonth, 1, yearFormat],
       [d3_time.timeMonth, 3, yearFormat],
       [d3_time.timeYear, 1, yearFormat],
-      [d3_time.year, 2, yearFormat],
-      [d3_time.year, 5, yearFormat],
-      [d3_time.year, 12, yearFormat]
+      [d3_time.timeYear, 2, yearFormat],
+      [d3_time.timeYear, 5, yearFormat],
+      [d3_time.timeYear, 12, yearFormat]
     ],
     intradayTickMethod = [
       [d3_time.timeSecond, 1, intradayFormat],
@@ -368,9 +368,9 @@ module.exports = function(d3_scale_linear, d3_time, d3_bisect, techan_util_rebin
       [d3_time.utcMonth, 1, yearFormatUtc],
       [d3_time.utcMonth, 3, yearFormatUtc],
       [d3_time.utcYear, 1, yearFormatUtc],
-      [d3_time.year.utc, 2, yearFormatUtc],
-      [d3_time.year.utc, 5, yearFormatUtc],
-      [d3_time.year.utc, 12, yearFormatUtc]
+      [d3_time.utcYear, 2, yearFormatUtc],
+      [d3_time.utcYear, 5, yearFormatUtc],
+      [d3_time.utcYear, 12, yearFormatUtc]
 
     ],
     intradayTickMethodUtc = [
